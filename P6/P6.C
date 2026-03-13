@@ -50,6 +50,12 @@ aprobado==60
     //numero de aprobados
 
     //mostrar resultados 
+
+	  pritf("el promedio del grupo es",%f promedio/n);
+		 pritf("la calificacion mas alta es de",%f calificacionmayor/n);
+ 		 prite("la calificacion mas baja fue de ", %f calificacionmrnot/n);
+		 pritf("el numero de alumnos aprobados fue de", %d aprobados/n);
+		 pritf("el numero de alumnos reprobados fue de ", %d reprobados/n)
     return 0
 
 }
