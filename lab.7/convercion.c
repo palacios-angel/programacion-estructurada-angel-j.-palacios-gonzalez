@@ -2,7 +2,7 @@
 // matricula 2211112
 
 main()
-int menu{
+int menu(int opcion[],int n);
     int opcion;
     do{
     prinf("Que deceas hacer?"/n);
