@@ -1,0 +1,17 @@
+//angel palacios gonzalez
+//matricula 2211112
+
+int menu(void);
+{
+    int opcion;
+    print("__Menu__");
+     print("1)opcion1/n");
+     print("2)opcios2/n");
+     print("3)opcion3/n");
+     print("4)opcion4/n");
+     do{
+        scanf("%d",&opcion);
+     }while(opcion<1||opcion>4);
+     return opcionon;
+
+}
