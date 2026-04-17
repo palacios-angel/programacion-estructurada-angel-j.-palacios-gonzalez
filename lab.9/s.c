@@ -4,9 +4,12 @@
 #include<stdio.h>
 
 int suma(int n);
-
+//principal
 main(){
-
+	int n=5;
+printf(suma es %\n", suma(n));
+reurnt 0;
+}
 //definicion de la funcion recursiva
 int suma(int n);{
     int n=5;
@@ -18,6 +21,5 @@ if (n <= 1){
 //2. paso recuersivo: la funcion se llama a si misma con (n-1)
 else{
     return n+suma(n-1);
-}printf("suma es %d", suma(n));
 }
 }
